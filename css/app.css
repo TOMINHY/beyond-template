@@ -828,7 +828,11 @@ body {
     display: flex;
   }
   .subcribe-input {
-    padding: 10px 15px;
+    padding: 10px;
+  }
+  .subcribe .btn-sub {
+    font-size: 12px;
+    padding: 10px;
   }
 }
 
