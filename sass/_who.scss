@@ -1,0 +1,37 @@
+.who {
+  padding-bottom: var(--section-spacing);
+  &-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 87px;
+  }
+  &-image {
+    max-width: 600px;
+    width: 100%;
+  }
+  &-content {
+    flex: 1;
+  }
+  &-caption,
+  &-heading {
+    margin-bottom: 25px;
+  }
+  &-desc{
+    margin-bottom: 37px;
+  }
+}
+@media screen and (max-width: 1023.98px) {
+  .who {
+    &-container {
+      gap: 30px 0;
+      flex-direction: column;
+    }
+    &-image {
+      max-width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

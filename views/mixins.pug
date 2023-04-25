@@ -1,0 +1,32 @@
+mixin serviceItem(icon, title, desc, active= "")
+  .service-item(class= active) 
+    .service-icon 
+      img(src= icon, alt="")
+    h3.global-heading.global-heading--normal.service-title= title
+    p.global-text.service-text= desc
+
+mixin reviewCard(image, name, job, desc, rating)
+  .review-card 
+    .review-avatar 
+      img(srcset= image)
+    h3.review-name= name 
+    span.review-job= job 
+    p.review-desc= desc
+    .review-rating 
+      img(srcset= "images/icon-star.png 2x")
+      span= rating 
+    .review-quote
+      img(srcset= "images/icon-quote.png 2x")
+
+mixin blogItem(image, title, desc, active= "")
+  .blog-item(class= active)
+    .blog-image
+      img(srcset= image, alt="")
+    .blog-content 
+      h3.blog-title= title 
+      p.blog-desc= desc
+
+mixin footerItem(link)
+  li.footer-item-content
+    a.footer-link(href="#!")= link
+

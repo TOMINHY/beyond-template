@@ -1,0 +1,23 @@
+$gray:#635F85;
+$gray-line:#E7E7E7;
+$gray-lighter: #F4F6FD;
+$gray-dark:#051441;
+$gray-blur:#7F8EA1;
+$gray-blur-dark:#6B7D92;
+$primary-color:#FF7D00;
+$secondary-color: #5A73E5;
+$third-color:#F4A11A;
+$title-footer: #D9E1F0;
+$link-footer: #AFACCD;
+$border-footer: #11317C;
+$text-bottom-footer:#8B9FCF;
+
+:root {
+  --section-spacing: 140px;
+  @media screen and (max-width: 1279.98px) {
+    --section-spacing: 70px;
+  }
+  @media screen and (max-width: 767.98px) {
+    --section-spacing: 40px;
+  }
+}
