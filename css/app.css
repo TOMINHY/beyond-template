@@ -789,6 +789,7 @@ body {
 .subcribe-form {
   background: #FFFFFF;
   border-radius: 26.5px;
+  margin: 0 auto;
 }
 .subcribe-input {
   outline: none;
@@ -833,6 +834,24 @@ body {
   .subcribe .btn-sub {
     font-size: 12px;
     padding: 10px;
+  }
+}
+@media screen and (max-width: 479.98px) {
+  .subcribe-form {
+    max-width: 300px;
+  }
+  .subcribe-input {
+    max-width: unset;
+    width: 200px;
+  }
+}
+@media screen and (max-width: 479.98px) {
+  .subcribe-form {
+    max-width: 290px;
+  }
+  .subcribe-input {
+    max-width: unset;
+    width: 180px;
   }
 }
 
